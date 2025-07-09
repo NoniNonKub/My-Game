@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 
@@ -6,7 +6,6 @@ public class CameraDrag : MonoBehaviour
 {
     public Camera cam;
     public float dragSpeed = 0.1f;
-
     private Vector2 lastTouchPos;
     private bool isDragging = false;
 
